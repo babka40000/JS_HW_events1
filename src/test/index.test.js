@@ -97,9 +97,3 @@ test('check lose', () => {
   action.scope = 0;
   expect(action.checkLose()).toBeTruthy();
 });
-
-// test('on click', () => {
-//   action = new PlayerAction(dom.window.document, domScope.window.document);
-//   dom.window.document.addEventListener('click', action.onItemClick);
-  
-// });
